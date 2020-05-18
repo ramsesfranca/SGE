@@ -1,0 +1,21 @@
+﻿@model RFSolucoes.SGE.Web.Areas.Cadastros.Models.Produtos.FormularioProdutoModel
+
+@{
+    ViewData["Title"] = "Alterar";
+}
+
+<h1>Alterar</h1>
+<h4>FormularioProdutoModel</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Alterar">
+            <partial name="_FormularioProduto" />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
